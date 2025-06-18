@@ -1,0 +1,1281 @@
+[
+  {
+    "name": "missing_values",
+    "params": {
+      "action": "impute",
+      "strategy": "mean",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "fill_value": null
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250615_222046.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250615_222459.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "action": "impute",
+      "strategy": "mean",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "fill_value": null
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250615_225937.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "action": "impute",
+      "strategy": "mean",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "fill_value": null
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250615_230002.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "action": "impute",
+      "strategy": "mean",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "fill_value": null
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250615_230031.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "action": "impute",
+      "strategy": "mean",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "fill_value": null
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250615_230100.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "action": "impute",
+      "strategy": "mean",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "fill_value": null
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250615_230129.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "action": "impute",
+      "strategy": "mean",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "fill_value": null
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250615_231923.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250615_232306.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250615_232412.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250615_233442.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250615_233549.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250616_060654.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250616_060824.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250616_060931.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "drop"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250616_225845.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250616_225948.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250616_230049.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "drop"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250616_234753.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "drop"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250616_234854.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "drop"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250616_235546.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "drop"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250616_235734.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "drop"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250617_000641.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250617_001805.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_002008.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "knn"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250617_064001.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_064140.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "knn"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250617_065258.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_065412.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250617_072139.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_072314.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250617_072351.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_072443.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250617_073706.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_073820.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_074512.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_074602.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250617_075501.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_075533.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_075626.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250617_080317.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250617_080516.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250618_061145.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250618_061311.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "mean"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250618_063521.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250618_063552.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "knn"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250618_063823.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250618_064026.csv"
+  },
+  {
+    "name": "missing_values",
+    "params": {
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ],
+      "action": "impute",
+      "strategy": "knn"
+    },
+    "version_path": "project_data/processed/unnamed_missing_values_20250618_071022.csv"
+  },
+  {
+    "name": "outliers",
+    "params": {
+      "method": "iqr",
+      "columns": [
+        "male",
+        "age",
+        "education",
+        "currentSmoker",
+        "cigsPerDay",
+        "BPMeds",
+        "prevalentStroke",
+        "prevalentHyp",
+        "diabetes",
+        "totChol",
+        "sysBP",
+        "diaBP",
+        "BMI",
+        "heartRate",
+        "glucose",
+        "TenYearCHD"
+      ]
+    },
+    "version_path": "project_data/processed/unnamed_outliers_20250618_071534.csv"
+  }
+]
