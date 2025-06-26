@@ -16,7 +16,7 @@ from src.eda.visualization import (
 def run_eda1(df: pd.DataFrame, state: dict):
     st.subheader("📊 EDA-1: Exploratory Data Analysis on Raw Dataset")
 
-    # Dataset Overview in columns
+    # 1. Dataset Overview in columns
     st.markdown("### 🧾 Dataset Overview")
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -35,9 +35,10 @@ def run_eda1(df: pd.DataFrame, state: dict):
             "Unique Values": df.nunique()
         }))
 
+    # 2. Data Distributions
     st.markdown("### 📈 Data Distributions")
     
-        # Numeric Distributions - 2 columns
+    # Numeric Distributions - 2 columns
     numeric_cols = df.select_dtypes(include=['number']).columns
     for i in range(0, len(numeric_cols), 2):
         col1, col2 = st.columns(2)
@@ -56,7 +57,7 @@ def run_eda1(df: pd.DataFrame, state: dict):
                 st.pyplot(fig)
                 plt.close()
 
-    # Boxplots - 2 columns (modified from 3 to 2)
+    # Boxplots - 2 columns
     st.markdown("### 📦 Box Plots")
     for i in range(0, len(numeric_cols), 2):
         col1, col2 = st.columns(2)
@@ -75,28 +76,6 @@ def run_eda1(df: pd.DataFrame, state: dict):
                 st.pyplot(fig)
                 plt.close()
 
-    # Correlation and Missing Values in expandable sections - Single column
-    st.markdown("### 📊 Data Quality Insights")
-    
-    with st.expander("Correlation Heatmap", expanded=False):
-        if len(numeric_cols) > 1:
-            fig, ax = plt.subplots(figsize=(8, 5))
-            sns.heatmap(df[numeric_cols].corr(), 
-                       annot=True, 
-                       cmap='coolwarm', 
-                       fmt='.2f',
-                       ax=ax)
-            plt.title("Feature Correlations")
-            st.pyplot(fig)
-            plt.close()
-    
-    with st.expander("Missing Values Pattern", expanded=False):
-        fig, ax = plt.subplots(figsize=(8, 5))
-        msno.matrix(df, ax=ax)
-        plt.title("Missing Values Matrix")
-        st.pyplot(fig)
-        plt.close()
-
     # Categorical value counts - 3 columns
     categorical_cols = df.select_dtypes(include=['object', 'category']).columns
     if len(categorical_cols) > 0:
@@ -112,6 +91,36 @@ def run_eda1(df: pd.DataFrame, state: dict):
                         plt.xticks(rotation=45)
                         st.pyplot(fig)
                         plt.close()
+
+    # 3. Correlation Heatmap
+    st.markdown("### 📊 Data Quality Insights")
+    
+    with st.expander("Correlation Heatmap", expanded=False):
+        if len(numeric_cols) > 1:
+            fig, ax = plt.subplots(figsize=(8, 5))
+            
+            # Dynamic font size calculation
+            base_font_size = 10
+            # Reduce font size by 0.4 for every column beyond 10
+            font_size = max(6, base_font_size - 0.4 * max(0, len(numeric_cols) - 10))
+            
+            sns.heatmap(df[numeric_cols].corr(), 
+                       annot=True, 
+                       cmap='coolwarm', 
+                       fmt='.2f',
+                       annot_kws={'size': font_size},  # Apply dynamic font size
+                       ax=ax)
+            plt.title("Understanding Multicollinearity between Features")
+            st.pyplot(fig)
+            plt.close()
+    
+    # 4. Missing Values Matrix
+    with st.expander("Missing Values Pattern", expanded=False):
+        fig, ax = plt.subplots(figsize=(8, 5))
+        msno.matrix(df, ax=ax)
+        plt.title("Missing Values Matrix")
+        st.pyplot(fig)
+        plt.close()
 
     # Approval section
     st.markdown("---")
